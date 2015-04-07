@@ -1,0 +1,16 @@
+[run]
+branch = True
+omit =
+    datum/migrations/*
+    datum/tests/*
+    datum/version.py
+source = datum
+[report]
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise NotImplementedError
+fail_under = 100
+show_missing = 1
