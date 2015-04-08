@@ -4,6 +4,7 @@ omit =
     datum/migrations/*
     datum/tests/*
     datum/version.py
+    datum/apps.py
 source = datum
 [report]
 exclude_lines =
