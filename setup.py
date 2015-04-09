@@ -18,7 +18,7 @@ def get_version():
 
 
 setup(
-    name='datum',
+    name='django-datum',
     version=get_version(),
     description='',
     long_description=open('README.rst').read(),
