@@ -3,11 +3,10 @@
 Code documentation
 ==================
 
-datum
+Datum
 ------------------
 
 .. automodule:: datum
-.. autoclass:: datum.datum
+.. autoclass:: datum.Datum
     :members:
 
-    .. automethod:: __init__

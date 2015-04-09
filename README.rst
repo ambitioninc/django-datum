@@ -16,9 +16,8 @@
 django-datum
 ===============
 
-
-I have failed to provide a good README.rst in my project, and you should shun
-me if I do any pull requests
+Datums are a generic way to track notes that your system should keep track of. 
+Think of it as internal logging for your application.
 
 Installation
 ------------

@@ -41,10 +41,10 @@ def configure_settings():
                 'django.contrib.contenttypes',
                 'django.contrib.sessions',
                 'django.contrib.admin',
-                'south',
                 'datum',
                 'datum.tests',
             ),
             ROOT_URLCONF='datum.urls',
             DEBUG=False,
+            MIDDLEWARE_CLASSES=(),
         )
