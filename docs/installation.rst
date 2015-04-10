@@ -3,7 +3,7 @@ Installation
 
 To install the latest release, type::
 
-    pip install datum
+    pip install django-datum
 
 To install the latest code directly from source, type::
 
